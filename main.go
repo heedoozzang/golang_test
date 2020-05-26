@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, snowdeer")
 
-	var num int
-	fmt.Scanln(&num)
+	var num1 int
+	fmt.Scanln(&num1)
 
-	num2 := num + 1
-	fmt.Printf("%d + 1 = %d", num, num2)
+	num2 := num1 + 1
+	fmt.Printf("%d + 1 = %d", num1, num2)
 }
